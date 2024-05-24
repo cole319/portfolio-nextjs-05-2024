@@ -59,7 +59,6 @@ export default function Navbar() {
                   style={{ fontFamily: "Ysabeau SC", fontWeight: 300 }}
                 >
                   Sury
-                  {/* <span className="text-[#fa5252]">&#197;</span>rghya Saha */}
                   <span className="text-red-500">&#197;</span>rghya Saha
                 </div>
               </div>

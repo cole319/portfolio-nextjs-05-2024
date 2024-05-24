@@ -9,7 +9,7 @@ import {
 } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
 
-const HeroSection = () => {
+const Hero = () => {
   return (
     <section id="home">
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 pt-16 sm:pt-32 lg:pt-40 lg:flex-row lg:space-x-4 lg:text-left">
@@ -109,4 +109,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Hero;
