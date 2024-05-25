@@ -46,13 +46,13 @@ const Hero = () => {
                 2000,
               ]}
               speed={50}
-              className="font-semibold text-red-500"
+              className="font-normal text-red-500"
               wrapper="span"
               repeat={Infinity}
             />
           </h1>
 
-          <p className="text-lg mt-4 mb-6 lg:text-lg">
+          <p className="text-lg mt-4 mb-6 lg:text-lg text-slate-600">
             In pursuit of perfection in the realm of technology
           </p>
           <br />

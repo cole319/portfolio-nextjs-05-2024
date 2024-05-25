@@ -10,7 +10,7 @@ const proficiencyCalculator = (proficiency: number) => {
   return width.toString() + "%";
 };
 
-const Skills = () => {
+export default function Skills() {
   return (
     <section id="skills">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
@@ -73,6 +73,4 @@ const Skills = () => {
       </div>
     </section>
   );
-};
-
-export default Skills;
+}

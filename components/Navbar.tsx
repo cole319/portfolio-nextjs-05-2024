@@ -56,7 +56,7 @@ export default function Navbar() {
 
                 <div
                   className="text-[25px] cursor-pointer text-slate-900"
-                  style={{ fontFamily: "Ysabeau SC", fontWeight: 300 }}
+                  style={{ fontWeight: 300 }}
                 >
                   Sury
                   <span className="text-red-500">&#197;</span>rghya Saha

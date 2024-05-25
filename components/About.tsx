@@ -5,7 +5,7 @@ import Underline from "./Underline";
 import { FaGraduationCap } from "react-icons/fa";
 import { FaInfoCircle } from "react-icons/fa";
 
-const About = () => {
+export default function About() {
   return (
     <section id="about">
       <div className="my-12 pb-12 md:pt-16 md:pb-20">
@@ -34,7 +34,7 @@ const About = () => {
                 </div>
 
                 <div className="p-4 lg:p-1">
-                  <div className="flex">
+                  <div className="flex flex-col md:flex-row">
                     <h1 className="w-1/5 lg:w-2/5 font-semibold text-slate-600">
                       Degree:
                     </h1>
@@ -42,7 +42,7 @@ const About = () => {
                       Bachelor of Technology (B.Tech)
                     </p>
                   </div>
-                  <div className="flex">
+                  <div className="flex flex-col md:flex-row">
                     <h1 className="w-1/5 lg:w-2/5 font-semibold text-slate-600">
                       Major:
                     </h1>
@@ -50,7 +50,7 @@ const About = () => {
                       Computer Science and Engineering
                     </p>
                   </div>
-                  <div className="flex">
+                  <div className="flex flex-col md:flex-row">
                     <h1 className="w-1/5 lg:w-2/5 font-semibold text-slate-600">
                       Alma Mater:
                     </h1>
@@ -58,7 +58,7 @@ const About = () => {
                       Indian Institute of Technology (ISM) Dhanbad
                     </p>
                   </div>
-                  <div className="flex">
+                  <div className="flex flex-col md:flex-row">
                     <h1 className="w-1/5 lg:w-2/5 font-semibold text-slate-600">
                       Year:
                     </h1>
@@ -94,6 +94,4 @@ const About = () => {
       </div>
     </section>
   );
-};
-
-export default About;
+}
