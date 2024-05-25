@@ -2,11 +2,16 @@
 import React from "react";
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
+// import Link from "next/link";
 import {
   AiOutlineGithub,
   AiOutlineTwitter,
   AiOutlineLinkedin,
 } from "react-icons/ai";
+
+import { FaFileDownload } from "react-icons/fa";
+import { IoMdContact } from "react-icons/io";
+
 import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
@@ -24,7 +29,9 @@ const Hero = () => {
         </div>
         <div className="lg:mt-2 lg:w-3/5">
           <h1 className="text-4xl text-slate-900 font-bold mt-6 lg:mt-0 lg:text-7xl">
-            Hi, I&#39;m Suryarghya!
+            <span className="text-3xl text-slate-600">Hi, I&#39;m </span>
+            <br />
+            Suryarghya!
           </h1>
           <br />
           <h1 className="text-3xl ">
@@ -50,8 +57,8 @@ const Hero = () => {
           </p>
           <br />
           <div className="flex flex-col lg:flex-row space-y-2 lg:space-x-2 lg:space-y-0 ">
-            <Link
-              to="projects"
+            {/* <Link
+              to="https://www.google.com"
               className="text-slate-50 font-semibold px-12 py-4 bg-slate-900 rounded-full shadow hover:bg-slate-800 border-2 border-slate-900 cursor-pointer"
               activeClass="active"
               spy={true}
@@ -60,7 +67,17 @@ const Hero = () => {
               duration={500}
             >
               Projects
-            </Link>
+            </Link> */}
+            <a
+              href="https://www.google.com"
+              target="_blank"
+              className="text-slate-50 font-semibold px-12 py-4 bg-slate-900 rounded-full shadow hover:bg-slate-800 border-2 border-slate-900 cursor-pointer"
+            >
+              <div className="flex justify-center items-center space-x-2">
+                <FaFileDownload />
+                <p>Download CV</p>
+              </div>
+            </a>
             <Link
               to="contact"
               className="text-slate-900 font-semibold px-12 py-4 bg-transparent rounded-full shadow hover:bg-slate-900 hover:text-slate-50 duration-300 border-2 border-slate-900 cursor-pointer"
@@ -70,7 +87,10 @@ const Hero = () => {
               offset={-100}
               duration={500}
             >
-              Contact
+              <div className="flex justify-center items-center space-x-2">
+                <IoMdContact className="text-2xl" />
+                <p>Contact</p>
+              </div>
             </Link>
           </div>
         </div>

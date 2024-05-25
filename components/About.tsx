@@ -3,11 +3,15 @@ import Image from "next/image";
 import Underline from "./Underline";
 
 import { FaGraduationCap } from "react-icons/fa";
+import { FaInfoCircle } from "react-icons/fa";
 
 const About = () => {
   return (
     <section id="about">
       <div className="my-12 pb-12 md:pt-16 md:pb-20">
+        <h1 className="flex justify-center font-normal text-xl text-slate-950 pb-2">
+          <FaInfoCircle />
+        </h1>
         <h1 className="text-center font-normal text-lg text-slate-600 pb-2">
           Get to know more
         </h1>
