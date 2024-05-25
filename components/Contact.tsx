@@ -13,7 +13,7 @@ export default function Contact() {
   return (
     <section id="contact">
       <div className="my-12 pb-12 md:pt-16 md:pb-40 ">
-        <h1 className="flex justify-center font-normal text-2xl text-slate-950 pb-2">
+        <h1 className="flex justify-center font-normal text-xl text-slate-950 pb-2">
           <FaMailBulk />
         </h1>
         <h1 className="text-center font-normal text-lg text-slate-600 pb-2">

@@ -41,9 +41,9 @@ const Hero = () => {
             <span>I&#39;m a </span>
             <TypeAnimation
               sequence={[
-                "Software Engineer",
-                2000,
                 "Web Developer",
+                2000,
+                "Software Engineer",
                 2000,
                 "Blockchain Developer",
                 2000,
