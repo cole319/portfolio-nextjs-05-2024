@@ -12,7 +12,7 @@ export default function Footer() {
       <hr className="w-full h-0.5 mx-auto mt-8 bg-slate-200 border-0"></hr>
       <div className="mx-auto px-4 py-10 flex flex-col text-center text-slate-900 md:flex-row md:justify-between space-y-4 md:space-y-0">
         <div className="flex flex-row items-center justify-center space-x-1 text-slate-900 ">
-          © 2023 Suryarghya Saha<a href="/" className="hover:underline"></a>
+          © 2024 Suryarghya Saha<a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-8 mb-1">
           <a href="https://github.com/cole319" rel="noreferrer" target="_blank">
