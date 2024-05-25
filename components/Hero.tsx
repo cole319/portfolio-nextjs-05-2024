@@ -15,6 +15,9 @@ import { IoMdContact } from "react-icons/io";
 import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
+  const downloadCV = () => {
+    window.open("./resume.pdf");
+  };
   return (
     <section id="home">
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 pt-16 sm:pt-32 lg:pt-40 lg:flex-row lg:space-x-4 lg:text-left">
@@ -68,15 +71,22 @@ const Hero = () => {
             >
               Projects
             </Link> */}
+            {/* <button
+             
+              onClick={downloadCV}
+              className="text-slate-50 font-semibold px-12 py-4 bg-slate-900 rounded-full shadow hover:bg-slate-800 border-2 border-slate-900 cursor-pointer"
+            > */}
             <a
-              href="https://www.google.com"
+              href="https://drive.google.com/file/d/10vbRLJWKbqlSuPP5b72lDygxPCj1sGHv/view?usp=sharing"
               target="_blank"
+              // onClick={downloadCV}
               className="text-slate-50 font-semibold px-12 py-4 bg-slate-900 rounded-full shadow hover:bg-slate-800 border-2 border-slate-900 cursor-pointer"
             >
               <div className="flex justify-center items-center space-x-2">
                 <FaFileDownload />
                 <p>Download CV</p>
               </div>
+              {/* </button> */}
             </a>
             <Link
               to="contact"
