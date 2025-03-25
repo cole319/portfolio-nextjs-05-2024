@@ -77,7 +77,7 @@ const Hero = () => {
               className="text-slate-50 font-semibold px-12 py-4 bg-slate-900 rounded-full shadow hover:bg-slate-800 border-2 border-slate-900 cursor-pointer"
             > */}
             <a
-              href="https://drive.google.com/file/d/10vbRLJWKbqlSuPP5b72lDygxPCj1sGHv/view?usp=sharing"
+              href="https://drive.google.com/file/d/17k-crcungY8NtbvQ8x4XXKZ2iBImexao/view?usp=sharing"
               target="_blank"
               // onClick={downloadCV}
               className="text-slate-50 font-semibold px-12 py-4 bg-slate-900 rounded-full shadow hover:bg-slate-800 border-2 border-slate-900 cursor-pointer"
