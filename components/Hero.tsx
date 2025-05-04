@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 pt-16 sm:pt-32 lg:pt-40 lg:flex-row lg:space-x-4 lg:text-left">
         <div className="lg:mt-2 lg:w-1/2">
           <Image
-            src="/profile-1.jpg"
+            src="/profile-new.jpg"
             alt=""
             width={400}
             height={400}
